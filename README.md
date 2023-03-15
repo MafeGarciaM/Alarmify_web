@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
 
 ## Install Node modules
-Run `npm install` after clone the code
+Run `npm install` after clone the code into src folder
 
 ## Development server
 
