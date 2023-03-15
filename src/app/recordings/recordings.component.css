@@ -1,0 +1,28 @@
+.matWidth{
+  width: 400px;
+}
+.contenedor{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contenedor2{
+  min-height: 100vh;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn{
+  background-color: #4B407A;
+  color: white;
+  width: 160px;
+  height: 60px;
+  border: none;
+  font-size: 20px !important;
+  font-family: "Acme" !important;
+}

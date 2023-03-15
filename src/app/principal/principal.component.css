@@ -1,0 +1,7 @@
+.contenedor{
+  min-height: 100vh;
+  display: flex;
+  align-items: normal;
+  justify-content: center;
+  flex-direction: column;
+}

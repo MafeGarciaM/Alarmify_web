@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@font-face {
+  font-family: "Acme";
+  src: local("Acme"), url(./assets/fonts/Acme-Regular.ttf) format("truetype");
+}
+
+@import '../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-buttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-inputs/styles/material.css';
+
+.title{
+  font-family: "Acme";
+  font-size: 40px;
+}
+
+.textContent{
+  font-family: "Acme" !important;
+  font-size: 20px !important;
+}
+
+.button{
+  background-color: #4B407A;
+  color: white;
+  width: 180px;
+  height: 60px;
+  border: none;
+  font-size: 20px !important;
+  font-family: "Acme" !important;
+}
+
+.icon{
+  border: none;
+  background: none;
+}
